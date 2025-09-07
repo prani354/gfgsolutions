@@ -1,1 +1,1 @@
-# gfgsolutions
+# Geeks for Geeks solutions
