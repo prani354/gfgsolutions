@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1">Minimum Jumps</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given an array <strong>arr[]</strong> of non-negative numbers. Each number tells you the <strong>maximum number of steps</strong> you can jump forward from that position.</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1?page=1&sortBy=submissions">Minimum Jumps</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given an array <strong>arr[]</strong> of non-negative numbers. Each number tells you the <strong>maximum number of steps</strong> you can jump forward from that position.</span></p>
 <p><span style="font-size: 14pt;">For example:</span></p>
 <ul>
 <li><span style="font-size: 18.6667px;">If <strong>arr[i] = 3</strong>, you can jump to index <strong>i + 1</strong>, <strong>i + 2</strong>, or <strong>i + 3</strong> from position <strong>i</strong>.</span></li>
