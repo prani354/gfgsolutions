@@ -7,7 +7,7 @@ class Solution:
         
         for i in range(n):
             
-            if q and q[0] <= i - k:
+            if q and q[0] <= i - k:  #to remove the lastly added index to the res
                 q.popleft()
                 
             while q and arr[q[-1]] < arr[i]:
