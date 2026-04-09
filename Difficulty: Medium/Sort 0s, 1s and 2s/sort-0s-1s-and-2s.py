@@ -1,34 +1,25 @@
 class Solution:
     def sort012(self, arr):
         # code here
-        zero = 0
-        one = 0
-        two = 0
+        low , mid , high = 0, 0, len(arr) - 1
         
-        for i in range(len(arr)):
-            if arr[i] == 0:
-                zero += 1
+        while mid <= high:
             
-            elif arr[i] == 1:
-                one += 1
+            if arr[mid] == 0:
+                
+                arr[mid] , arr[low] = arr[low], arr[mid]
+                mid += 1
+                low += 1
+                
+            elif arr[mid] == 1:
+                
+                mid += 1
                 
             else:
-                two += 1
+                
+                arr[mid], arr[high] = arr[high] , arr[mid]
+                high -= 1 
                 
         
-        for j in range(len(arr)):
-            
-            
-            if zero != 0:
-                arr[j] = 0
-                zero -= 1
                 
-            elif one != 0:
-                arr[j] = 1
-                one -= 1
-                
-            else:
-                arr[j] = 2
-                two -= 1
-                
-                
+        
